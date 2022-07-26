@@ -1,0 +1,30 @@
+//
+//  ButtonView.swift
+//  conversor na banda
+//
+//  Created by Alfredo Vidinhas on 26/07/2022.
+//
+
+import SwiftUI
+
+struct ButtonView: View {
+    @State var text: String = ""
+    
+    var body: some View {
+        Text(text)
+            .frame(maxWidth: .infinity, maxHeight: 56)
+            .foregroundColor(Color.white)
+            .font(Font.custom("Poppins-Medium", size: 18))
+            .background(LinearGradient(gradient: Gradient(colors: [Color("SecondColor"), .accentColor]), startPoint: .trailing, endPoint: .leading))
+            .cornerRadius(16)
+            .padding(.horizontal, 20)
+            .padding(.bottom, 20)
+            .shadow(color: Color("Shadow"), radius: 18, x: 0, y: 15)
+    }
+}
+
+struct ButtonView_Previews: PreviewProvider {
+    static var previews: some View {
+        ButtonView(text: "Button")
+    }
+}
