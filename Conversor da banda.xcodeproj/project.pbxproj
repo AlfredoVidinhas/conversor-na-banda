@@ -14,6 +14,7 @@
 		845E619E2891E46C0040FE32 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 845E61992891E46C0040FE32 /* Poppins-Bold.ttf */; };
 		845E619F2891E46C0040FE32 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 845E619A2891E46C0040FE32 /* Poppins-SemiBold.ttf */; };
 		845E61A12891E6060040FE32 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E61A02891E6060040FE32 /* MenuItemView.swift */; };
+		845E61A32891E9BE0040FE32 /* TaxasBaiKambaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E61A22891E9BE0040FE32 /* TaxasBaiKambaView.swift */; };
 		846AE83C2890737C00294EFF /* conversor_na_bandaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AE83B2890737C00294EFF /* conversor_na_bandaApp.swift */; };
 		846AE83E2890737C00294EFF /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AE83D2890737C00294EFF /* SplashView.swift */; };
 		846AE8402890738000294EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846AE83F2890738000294EFF /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		845E61992891E46C0040FE32 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		845E619A2891E46C0040FE32 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		845E61A02891E6060040FE32 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		845E61A22891E9BE0040FE32 /* TaxasBaiKambaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxasBaiKambaView.swift; sourceTree = "<group>"; };
 		846AE8382890737C00294EFF /* Conversor da banda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conversor da banda.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		846AE83B2890737C00294EFF /* conversor_na_bandaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conversor_na_bandaApp.swift; sourceTree = "<group>"; };
 		846AE83D2890737C00294EFF /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 			children = (
 				846AE83D2890737C00294EFF /* SplashView.swift */,
 				841E4B882891D16000D10404 /* MenuView.swift */,
+				845E61A22891E9BE0040FE32 /* TaxasBaiKambaView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				841E4B892891D16000D10404 /* MenuView.swift in Sources */,
+				845E61A32891E9BE0040FE32 /* TaxasBaiKambaView.swift in Sources */,
 				846AE86B2890752000294EFF /* Extension.swift in Sources */,
 				846AE83E2890737C00294EFF /* SplashView.swift in Sources */,
 				846AE86D2890756800294EFF /* ButtonView.swift in Sources */,

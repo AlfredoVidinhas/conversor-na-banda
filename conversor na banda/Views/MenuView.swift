@@ -16,10 +16,17 @@ struct MenuView: View {
             VStack() {
                 Image("logo")
                     .resizable()
-                    .frame(maxWidth: 163, maxHeight: 103)
+                    .frame(maxWidth: 160, maxHeight: 100)
                 
                 VStack() {
-                    MenuItemView(text: "Taxas para BAI Kamba", image: "bai")
+                    Button(action: {
+                        let impactMed = UIImpactFeedbackGenerator(style: .medium)
+                        impactMed.impactOccurred()
+                    }, label: {
+                        NavigationLink(destination: TaxasBaiKambaView(), label: {
+                            MenuItemView(text: "Taxas para BAI Kamba", image: "bai")
+                        })
+                    })
                     
                     MenuItemView(text: "Conversão para Wise", image: "bai_wise")
                         .padding(.vertical, 16)
