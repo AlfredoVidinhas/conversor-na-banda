@@ -9,7 +9,30 @@ import SwiftUI
 
 struct MenuView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack() {
+            Color.accentColor
+                .ignoresSafeArea()
+            
+            VStack() {
+                Image("logo")
+                    .resizable()
+                    .frame(maxWidth: 163, maxHeight: 103)
+                
+                VStack() {
+                    MenuItemView(text: "Taxas para BAI Kamba", image: "bai")
+                    
+                    MenuItemView(text: "Conversão para Wise", image: "bai_wise")
+                        .padding(.vertical, 16)
+                    
+                    MenuItemView(text: "Sugestões", image: "sugestao")
+                }
+                .padding(.top, 45)
+                .padding(.horizontal, 20)
+                
+                Spacer()
+            }
+            .padding(.top, 25)
+        }
     }
 }
 

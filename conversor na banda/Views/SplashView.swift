@@ -13,11 +13,11 @@ struct SplashView: View {
     
     var body: some View {
         NavigationView {
-            ZStack{
+            ZStack {
                 Color.accentColor
                     .ignoresSafeArea()
                 
-                VStack(alignment: .center){
+                VStack(alignment: .center) {
                     Image("logo")
                         .resizable()
                         .offset(y: -60)
