@@ -9,21 +9,30 @@ import SwiftUI
 import Combine
 
 struct SplashView: View {
+    @State var isActive : Bool = false
+    
     var body: some View {
         NavigationView {
             ZStack{
                 Color.accentColor
-                .ignoresSafeArea()
+                    .ignoresSafeArea()
                 
                 VStack(alignment: .center){
-                    Image("logo_white")
+                    Image("logo")
                         .resizable()
-                        .padding(.top, 60)
                         .offset(y: -60)
-                        .frame(maxWidth: 185, maxHeight: 168)
-                        
-                    Spacer()
-                    
+                        .frame(maxWidth: 173, maxHeight: 113)
+                }
+                
+                NavigationLink(destination: MenuView().navigationBarHidden(true), isActive: self.$isActive) {
+                    EmptyView()
+                }
+            }
+            .onAppear {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 3.0){
+                    withAnimation {
+                        self.isActive = true
+                    }
                 }
             }
         }

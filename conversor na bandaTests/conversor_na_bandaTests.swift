@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import conversor_na_banda
+@testable import Conversor_da_banda
 
 class conversor_na_bandaTests: XCTestCase {
 

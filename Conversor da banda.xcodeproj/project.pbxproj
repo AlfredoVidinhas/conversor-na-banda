@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841E4B892891D16000D10404 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841E4B882891D16000D10404 /* MenuView.swift */; };
 		846AE83C2890737C00294EFF /* conversor_na_bandaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AE83B2890737C00294EFF /* conversor_na_bandaApp.swift */; };
 		846AE83E2890737C00294EFF /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AE83D2890737C00294EFF /* SplashView.swift */; };
 		846AE8402890738000294EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846AE83F2890738000294EFF /* Assets.xcassets */; };
@@ -36,14 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		846AE8382890737C00294EFF /* conversor na banda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "conversor na banda.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841E4B882891D16000D10404 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		846AE8382890737C00294EFF /* Conversor da banda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conversor da banda.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		846AE83B2890737C00294EFF /* conversor_na_bandaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conversor_na_bandaApp.swift; sourceTree = "<group>"; };
 		846AE83D2890737C00294EFF /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		846AE83F2890738000294EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846AE8422890738000294EFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		846AE8482890738000294EFF /* conversor na bandaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "conversor na bandaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		846AE8482890738000294EFF /* Conversor da bandaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conversor da bandaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		846AE84C2890738000294EFF /* conversor_na_bandaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conversor_na_bandaTests.swift; sourceTree = "<group>"; };
-		846AE8522890738000294EFF /* conversor na bandaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "conversor na bandaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		846AE8522890738000294EFF /* Conversor da bandaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conversor da bandaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		846AE8562890738000294EFF /* conversor_na_bandaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conversor_na_bandaUITests.swift; sourceTree = "<group>"; };
 		846AE8582890738000294EFF /* conversor_na_bandaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conversor_na_bandaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		846AE86A2890752000294EFF /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
@@ -89,9 +91,9 @@
 		846AE8392890737C00294EFF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				846AE8382890737C00294EFF /* conversor na banda.app */,
-				846AE8482890738000294EFF /* conversor na bandaTests.xctest */,
-				846AE8522890738000294EFF /* conversor na bandaUITests.xctest */,
+				846AE8382890737C00294EFF /* Conversor da banda.app */,
+				846AE8482890738000294EFF /* Conversor da bandaTests.xctest */,
+				846AE8522890738000294EFF /* Conversor da bandaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				846AE83D2890737C00294EFF /* SplashView.swift */,
+				841E4B882891D16000D10404 /* MenuView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,9 +181,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		846AE8372890737C00294EFF /* conversor na banda */ = {
+		846AE8372890737C00294EFF /* Conversor da banda */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 846AE85C2890738100294EFF /* Build configuration list for PBXNativeTarget "conversor na banda" */;
+			buildConfigurationList = 846AE85C2890738100294EFF /* Build configuration list for PBXNativeTarget "Conversor da banda" */;
 			buildPhases = (
 				846AE8342890737C00294EFF /* Sources */,
 				846AE8352890737C00294EFF /* Frameworks */,
@@ -190,14 +193,14 @@
 			);
 			dependencies = (
 			);
-			name = "conversor na banda";
+			name = "Conversor da banda";
 			productName = "conversor na banda";
-			productReference = 846AE8382890737C00294EFF /* conversor na banda.app */;
+			productReference = 846AE8382890737C00294EFF /* Conversor da banda.app */;
 			productType = "com.apple.product-type.application";
 		};
-		846AE8472890738000294EFF /* conversor na bandaTests */ = {
+		846AE8472890738000294EFF /* Conversor da bandaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 846AE85F2890738100294EFF /* Build configuration list for PBXNativeTarget "conversor na bandaTests" */;
+			buildConfigurationList = 846AE85F2890738100294EFF /* Build configuration list for PBXNativeTarget "Conversor da bandaTests" */;
 			buildPhases = (
 				846AE8442890738000294EFF /* Sources */,
 				846AE8452890738000294EFF /* Frameworks */,
@@ -208,14 +211,14 @@
 			dependencies = (
 				846AE84A2890738000294EFF /* PBXTargetDependency */,
 			);
-			name = "conversor na bandaTests";
+			name = "Conversor da bandaTests";
 			productName = "conversor na bandaTests";
-			productReference = 846AE8482890738000294EFF /* conversor na bandaTests.xctest */;
+			productReference = 846AE8482890738000294EFF /* Conversor da bandaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		846AE8512890738000294EFF /* conversor na bandaUITests */ = {
+		846AE8512890738000294EFF /* Conversor da bandaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 846AE8622890738100294EFF /* Build configuration list for PBXNativeTarget "conversor na bandaUITests" */;
+			buildConfigurationList = 846AE8622890738100294EFF /* Build configuration list for PBXNativeTarget "Conversor da bandaUITests" */;
 			buildPhases = (
 				846AE84E2890738000294EFF /* Sources */,
 				846AE84F2890738000294EFF /* Frameworks */,
@@ -226,9 +229,9 @@
 			dependencies = (
 				846AE8542890738000294EFF /* PBXTargetDependency */,
 			);
-			name = "conversor na bandaUITests";
+			name = "Conversor da bandaUITests";
 			productName = "conversor na bandaUITests";
-			productReference = 846AE8522890738000294EFF /* conversor na bandaUITests.xctest */;
+			productReference = 846AE8522890738000294EFF /* Conversor da bandaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -254,7 +257,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 846AE8332890737C00294EFF /* Build configuration list for PBXProject "conversor na banda" */;
+			buildConfigurationList = 846AE8332890737C00294EFF /* Build configuration list for PBXProject "Conversor da banda" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -267,9 +270,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				846AE8372890737C00294EFF /* conversor na banda */,
-				846AE8472890738000294EFF /* conversor na bandaTests */,
-				846AE8512890738000294EFF /* conversor na bandaUITests */,
+				846AE8372890737C00294EFF /* Conversor da banda */,
+				846AE8472890738000294EFF /* Conversor da bandaTests */,
+				846AE8512890738000294EFF /* Conversor da bandaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -305,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841E4B892891D16000D10404 /* MenuView.swift in Sources */,
 				846AE86B2890752000294EFF /* Extension.swift in Sources */,
 				846AE83E2890737C00294EFF /* SplashView.swift in Sources */,
 				846AE86D2890756800294EFF /* ButtonView.swift in Sources */,
@@ -334,12 +338,12 @@
 /* Begin PBXTargetDependency section */
 		846AE84A2890738000294EFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 846AE8372890737C00294EFF /* conversor na banda */;
+			target = 846AE8372890737C00294EFF /* Conversor da banda */;
 			targetProxy = 846AE8492890738000294EFF /* PBXContainerItemProxy */;
 		};
 		846AE8542890738000294EFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 846AE8372890737C00294EFF /* conversor na banda */;
+			target = 846AE8372890737C00294EFF /* Conversor da banda */;
 			targetProxy = 846AE8532890738000294EFF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -473,9 +477,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "conversor-na-banda-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Conversor da Banda";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -483,7 +489,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "vidinhas.conversor-na-banda";
+				PRODUCT_BUNDLE_IDENTIFIER = "vidinhas.conversor-da-banda";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -503,9 +509,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "conversor-na-banda-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Conversor da Banda";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -513,7 +521,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "vidinhas.conversor-na-banda";
+				PRODUCT_BUNDLE_IDENTIFIER = "vidinhas.conversor-da-banda";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -542,7 +550,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/conversor na banda.app/conversor na banda";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conversor da banda.app/Conversor da banda";
 			};
 			name = Debug;
 		};
@@ -567,7 +575,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/conversor na banda.app/conversor na banda";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conversor da banda.app/Conversor da banda";
 			};
 			name = Release;
 		};
@@ -620,7 +628,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		846AE8332890737C00294EFF /* Build configuration list for PBXProject "conversor na banda" */ = {
+		846AE8332890737C00294EFF /* Build configuration list for PBXProject "Conversor da banda" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				846AE85A2890738100294EFF /* Debug */,
@@ -629,7 +637,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		846AE85C2890738100294EFF /* Build configuration list for PBXNativeTarget "conversor na banda" */ = {
+		846AE85C2890738100294EFF /* Build configuration list for PBXNativeTarget "Conversor da banda" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				846AE85D2890738100294EFF /* Debug */,
@@ -638,7 +646,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		846AE85F2890738100294EFF /* Build configuration list for PBXNativeTarget "conversor na bandaTests" */ = {
+		846AE85F2890738100294EFF /* Build configuration list for PBXNativeTarget "Conversor da bandaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				846AE8602890738100294EFF /* Debug */,
@@ -647,7 +655,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		846AE8622890738100294EFF /* Build configuration list for PBXNativeTarget "conversor na bandaUITests" */ = {
+		846AE8622890738100294EFF /* Build configuration list for PBXNativeTarget "Conversor da bandaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				846AE8632890738100294EFF /* Debug */,

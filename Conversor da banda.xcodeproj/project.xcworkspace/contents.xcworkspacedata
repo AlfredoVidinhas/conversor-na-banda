@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/admin/development/Apps/conversor-na-banda/Conversor da banda.xcodeproj">
    </FileRef>
 </Workspace>

@@ -12,6 +12,8 @@
 		</dict>
 		<dict/>
 	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDarkContent</string>
 	<key>UTImportedTypeDeclarations</key>
 	<array>
 		<dict/>
