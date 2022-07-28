@@ -21,7 +21,7 @@ struct SplashView: View {
                     Image("logo")
                         .resizable()
                         .offset(y: -60)
-                        .frame(maxWidth: 173, maxHeight: 113)
+                        .frame(maxWidth: 163, maxHeight: 108)
                 }
                 
                 NavigationLink(destination: MenuView().navigationBarHidden(true), isActive: self.$isActive) {

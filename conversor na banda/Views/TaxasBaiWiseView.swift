@@ -1,13 +1,13 @@
 //
-//  TaxasBaiKambaView.swift
+//  TaxasBaiWiseView.swift
 //  Conversor da banda
 //
-//  Created by Alfredo Vidinhas on 27/07/2022.
+//  Created by Alfredo Vidinhas on 28/07/2022.
 //
 
 import SwiftUI
 
-struct TaxasBaiKambaView: View {
+struct TaxasBaiWiseView: View {
     var body: some View {
         ZStack() {
             Color.accentColor
@@ -17,14 +17,14 @@ struct TaxasBaiKambaView: View {
                 VStack() {
                     
                 }
-                .customNavigationTitle("Taxas para BAI Kamba")
+                .customNavigationTitle("Conversão para Wise")
             }
         }
     }
 }
 
-struct TaxasBaiKambaView_Previews: PreviewProvider {
+struct TaxasBaiWiseView_Previews: PreviewProvider {
     static var previews: some View {
-        TaxasBaiKambaView()
+        TaxasBaiWiseView()
     }
 }

@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "bai_logo.png",
+      "filename" : "bai.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "bai_logo-1.png",
+      "filename" : "bai-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "bai_logo-2.png",
+      "filename" : "bai-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
