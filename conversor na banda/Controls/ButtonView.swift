@@ -14,10 +14,9 @@ struct ButtonView: View {
         Text(text)
             .frame(maxWidth: .infinity, maxHeight: 56)
             .foregroundColor(Color.white)
-            .font(Font.custom("Poppins-Medium", size: 18))
-            .background(LinearGradient(gradient: Gradient(colors: [Color("SecondColor"), .accentColor]), startPoint: .trailing, endPoint: .leading))
+            .font(Font.custom("Poppins-SemiBold", size: 18))
+            .background(Color("Secundary"))
             .cornerRadius(16)
-            .padding(.horizontal, 20)
             .padding(.bottom, 20)
             .shadow(color: Color("Shadow"), radius: 18, x: 0, y: 15)
     }

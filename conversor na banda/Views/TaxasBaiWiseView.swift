@@ -14,9 +14,25 @@ struct TaxasBaiWiseView: View {
                 .ignoresSafeArea()
             
             CustomNavigationContainerView {
-                VStack() {
+                VStack(alignment: .leading) {
+                    Text("Montante")
+                        .font(Font.custom("Poppins-SemiBold", size: 17))
+                        .foregroundColor(Color.white)
                     
+                    MontanteView()
+                    
+                    
+                    Spacer()
+                    
+                    Button(action: {
+                        let impactMed = UIImpactFeedbackGenerator(style: .medium)
+                        impactMed.impactOccurred()
+                    }, label: {
+                        ButtonView(text: "Converter")
+                    })
                 }
+                .padding(.horizontal, Constants.horizontalPadding)
+                
                 .customNavigationTitle("Conversão para Wise")
             }
         }

@@ -27,7 +27,7 @@ struct MenuItemView: View {
             
             Text(text)
                 .foregroundColor(Color.white)
-                .font(Font.custom("Poppins-SemiBold", size: 15))
+                .font(Font.custom("Poppins-SemiBold", size: 16))
                 .padding(.leading, 12)
             
             Spacer()

@@ -18,7 +18,7 @@ struct CustomNavigationView: View {
             titleSection
             Spacer()
             HStack{}
-            .frame(width: 35, height: 35).padding(.trailing, 20)
+            .frame(width: 35, height: 35).padding(.trailing, Constants.horizontalPadding)
         }
         .padding(.top, UIDevice.current.hasTopNotch ? 10 : 15)
         .padding(.bottom, 25)
@@ -49,7 +49,7 @@ extension CustomNavigationView {
                 .frame(width: 35, height: 35)
                 .background(Color("Quaternary"))
                 .cornerRadius(10)
-                .padding(.leading, 20)
+                .padding(.leading, Constants.horizontalPadding)
         })
     }
     

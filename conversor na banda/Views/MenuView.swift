@@ -41,7 +41,7 @@ struct MenuView: View {
                     MenuItemView(text: "Sugestões", image: "sugestao")
                 }
                 .padding(.top, 50)
-                .padding(.horizontal, 30)
+                .padding(.horizontal, Constants.horizontalPadding)
                 
                 Spacer()
             }
