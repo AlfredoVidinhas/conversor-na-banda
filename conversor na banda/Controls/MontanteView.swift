@@ -10,26 +10,37 @@ import Combine
 
 struct MontanteView: View {
     @State private var montante = ""
+    @Binding var moeda: Moeda
+    var buttonAction: () -> Void
     
     var body: some View {
         HStack() {
             HStack() {
-                Image("euro")
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(maxWidth: 35, maxHeight: 24)
-                    .overlay(
-                        BorderView(radius: 0.2)
-                    )
-                
-                Text("Euro")
-                    .foregroundColor(Color.white)
-                    .font(Font.custom("Poppins-SemiBold", size: 16))
-                    .padding(.leading, 1)
-                
-                Image(systemName: "chevron.down")
-                    .foregroundColor(.white)
-                    .font(.system(size: 13, weight: .semibold))
+                Button(action: {
+                    let impactMed = UIImpactFeedbackGenerator(style: .medium)
+                    impactMed.impactOccurred()
+                    
+                    withAnimation() {
+                        self.buttonAction()
+                    }
+                }, label: {
+                    Image(moeda.flag)
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(maxWidth: 35, maxHeight: 24)
+                        .overlay(
+                            BorderView(radius: 0.2)
+                        )
+                    
+                    Text(moeda.name)
+                        .foregroundColor(Color.white)
+                        .font(Font.custom("Poppins-SemiBold", size: 16))
+                        .padding(.leading, 1)
+                    
+                    Image(systemName: "chevron.down")
+                        .foregroundColor(.white)
+                        .font(.system(size: 13, weight: .semibold))
+                })
                 
                 
                 TextField("Montante", text: $montante)
@@ -65,6 +76,6 @@ struct MontanteView: View {
 
 struct MontanteView_Previews: PreviewProvider {
     static var previews: some View {
-        MontanteView()
+        MontanteView(moeda: .constant(Moeda(name: "Euro", flag: "euro")), buttonAction: {})
     }
 }

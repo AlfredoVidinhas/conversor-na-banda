@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		841E4B892891D16000D10404 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841E4B882891D16000D10404 /* MenuView.swift */; };
+		845E3FA52896CED700318AF8 /* TaxasBaiWiseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E3FA42896CED700318AF8 /* TaxasBaiWiseViewModel.swift */; };
+		845E3FA72896CFE000318AF8 /* Moeda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E3FA62896CFE000318AF8 /* Moeda.swift */; };
+		845E3FA92896D4BC00318AF8 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E3FA82896D4BC00318AF8 /* BlurView.swift */; };
+		845E3FAB2896D5A900318AF8 /* MoedaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E3FAA2896D5A900318AF8 /* MoedaListView.swift */; };
+		845E3FAD2896D8B400318AF8 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E3FAC2896D8B400318AF8 /* CustomCorner.swift */; };
 		845E619B2891E46C0040FE32 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 845E61962891E46C0040FE32 /* Poppins-Light.ttf */; };
 		845E619C2891E46C0040FE32 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 845E61972891E46C0040FE32 /* Poppins-Medium.ttf */; };
 		845E619D2891E46C0040FE32 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 845E61982891E46C0040FE32 /* Poppins-Regular.ttf */; };
@@ -53,6 +58,11 @@
 
 /* Begin PBXFileReference section */
 		841E4B882891D16000D10404 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		845E3FA42896CED700318AF8 /* TaxasBaiWiseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxasBaiWiseViewModel.swift; sourceTree = "<group>"; };
+		845E3FA62896CFE000318AF8 /* Moeda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moeda.swift; sourceTree = "<group>"; };
+		845E3FA82896D4BC00318AF8 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		845E3FAA2896D5A900318AF8 /* MoedaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoedaListView.swift; sourceTree = "<group>"; };
+		845E3FAC2896D8B400318AF8 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
 		845E61962891E46C0040FE32 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
 		845E61972891E46C0040FE32 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		845E61982891E46C0040FE32 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
@@ -201,6 +211,7 @@
 				841E4B882891D16000D10404 /* MenuView.swift */,
 				845E61A22891E9BE0040FE32 /* TaxasBaiKambaView.swift */,
 				845E61AF28933BAA0040FE32 /* TaxasBaiWiseView.swift */,
+				845E3FAA2896D5A900318AF8 /* MoedaListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,6 +219,7 @@
 		846AE8662890746800294EFF /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				845E3FA42896CED700318AF8 /* TaxasBaiWiseViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -219,6 +231,8 @@
 				846AE86C2890756800294EFF /* ButtonView.swift */,
 				845E61A02891E6060040FE32 /* MenuItemView.swift */,
 				845E61B4289343FD0040FE32 /* MontanteView.swift */,
+				845E3FA82896D4BC00318AF8 /* BlurView.swift */,
+				845E3FAC2896D8B400318AF8 /* CustomCorner.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -235,6 +249,7 @@
 		846AE869289074B200294EFF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				845E3FA62896CFE000318AF8 /* Moeda.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -375,13 +390,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				841E4B892891D16000D10404 /* MenuView.swift in Sources */,
+				845E3FAD2896D8B400318AF8 /* CustomCorner.swift in Sources */,
+				845E3FAB2896D5A900318AF8 /* MoedaListView.swift in Sources */,
 				845E61AA2893346C0040FE32 /* CustomNavView.swift in Sources */,
 				845E61A32891E9BE0040FE32 /* TaxasBaiKambaView.swift in Sources */,
 				845E61B028933BAA0040FE32 /* TaxasBaiWiseView.swift in Sources */,
 				845E61AB2893346C0040FE32 /* CustomNavigationView.swift in Sources */,
+				845E3FA92896D4BC00318AF8 /* BlurView.swift in Sources */,
 				845E61B5289343FD0040FE32 /* MontanteView.swift in Sources */,
 				845E61AC2893346C0040FE32 /* CustomNavLink.swift in Sources */,
+				845E3FA52896CED700318AF8 /* TaxasBaiWiseViewModel.swift in Sources */,
 				846AE86B2890752000294EFF /* Extension.swift in Sources */,
+				845E3FA72896CFE000318AF8 /* Moeda.swift in Sources */,
 				846AE83E2890737C00294EFF /* SplashView.swift in Sources */,
 				846AE86D2890756800294EFF /* ButtonView.swift in Sources */,
 				845E61A12891E6060040FE32 /* MenuItemView.swift in Sources */,

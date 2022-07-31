@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct TaxasBaiWiseView: View {
+    
+    @StateObject var viewModel = TaxasBaiWiseViewModel()
+    
     var body: some View {
         ZStack() {
             Color.accentColor
@@ -19,7 +22,7 @@ struct TaxasBaiWiseView: View {
                         .font(Font.custom("Poppins-SemiBold", size: 17))
                         .foregroundColor(Color.white)
                     
-                    MontanteView()
+                    MontanteView(moeda: $viewModel.currentMoeda, buttonAction: { viewModel.showButtonSheet.toggle() })
                     
                     
                     Spacer()
@@ -35,6 +38,8 @@ struct TaxasBaiWiseView: View {
                 
                 .customNavigationTitle("Conversão para Wise")
             }
+            
+            MoedaListView(viewModel: viewModel)
         }
     }
 }
