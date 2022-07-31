@@ -9,6 +9,6 @@ import SwiftUI
 
 class TaxasBaiWiseViewModel: ObservableObject{
     @Published var showButtonSheet = false
-    @Published var moedas = [ Moeda(name: "Euro", flag: "euro"), Moeda(name: "Dolar", flag: "us") ]
+    @Published var moedas = [ Moeda(name: "Euro", flag: "euro"), Moeda(name: "USD", flag: "usd") ]
     @Published var currentMoeda = Moeda(name: "Euro", flag: "euro")
 }
